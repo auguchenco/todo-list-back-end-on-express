@@ -12,41 +12,15 @@ Use the following command on your preference directory:
 git clone https://github.com/auguchenco/todo-list-backend.git
 ```
 
+This will create a directory called todo-list-backend with the project.
+
 ## INITIALIAZE USING DOCKER
 
 You must get installed Docker and Docker Compose.\
 The files Dockerfile and docker-compose.yml are allready setted.\
 You only have to set the file `.env`, remembering that on Docker the host is not more localhost.\
-Are `mongo` for MongoDB URI y `postgres` for PostgreSQL Host.
-
-**EXAMPLE:**
-
-```
-API_PORT=3000
-
-# PostgreSQL database configuration
-PGDB_NAME_DEFAULT=postgres
-
-# POSTGRES HOST FOR USE LOCALHOST
-# PGDB_HOST=localhost
-
-PGDB_HOST=postgres
-PGDB_PORT=5432
-PGDB_NAME=postgres-db
-PGDB_USER=user
-PGDB_PASSWORD="userpassword"
-
-# MongoDB database configuration
-
-# MONGO URI FOR USE LOCALHOST
-# MODB_URI=mongodb://localhost:27017/mongo-db
-
-MODB_URI=mongodb://mongo:27017/mongo-db
-
-JWT_SECRET=my-secret
-```
-
-It is recomendable only change PGDB_NAME, PGDB_USER, PGDB_PASSWORD and MODB_URI the parte after `:27017/` that references database mongo name, and the TWT_SECRET.
+Are `mongo` for MongoDB URI y `postgres` for PostgreSQL Host.\
+To set the `.env file` justo delete the `.example` part of the `.env.example file`.
 
 Then you compose the containers with the following commands, on the app directory:
 
