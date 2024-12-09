@@ -2,6 +2,16 @@
 
 This is a Node.js Backend proyect for a To-Do List App.
 
+## DOWNLOAD REPO
+
+To get all files to star using the app, you need to download the repository from <https://github.com/auguchenco/todo-list-backend.git>.\
+
+Use the following command on your preference directory:
+
+```bash
+git clone https://github.com/auguchenco/todo-list-backend.git
+```
+
 ## INITIALIAZE USING DOCKER
 
 You must get installed Docker and Docker Compose.\
