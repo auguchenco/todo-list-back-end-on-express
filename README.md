@@ -1,6 +1,6 @@
 # BACKEND
 
-This is a Node.js Backend proyect for a To-Do List App.
+This is a Node.js Backend proyect for a To-Do List App
 
 ## DOWNLOAD REPO
 
